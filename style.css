@@ -68,7 +68,6 @@ html {
 
 body {
 	margin: 0;
-	font-family: 'Share Tech Mono', monospace;
 }
 
 /**
@@ -396,8 +395,8 @@ input,
 select,
 optgroup,
 textarea {
-	color: #404040;
-	font-family: sans-serif;
+	color: #eeeeee;
+	font-family: 'Share Tech Mono', monospace;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -470,7 +469,7 @@ html {
 }
 
 body {
-	background: #fff;
+	background-color: #111111;
 	/* Fallback for when there is no custom background color defined. */
 }
 
@@ -486,7 +485,9 @@ ul, ol {
 }
 
 ul {
-	list-style: disc;
+	list-style: square;
+	margin-left: 0px;
+	padding-left: 0px;
 }
 
 ol {
@@ -531,11 +532,10 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
-	background: #e6e6e6;
-	color: rgba(0, 0, 0, 0.8);
+	border: 4px solid;
+	border-color: #ee1111;
+	background: #222222;
+	color: #eeeeee;
 	font-size: 12px;
 	font-size: 0.75rem;
 	line-height: 1;
@@ -575,9 +575,9 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-	color: #666;
-	border: 1px solid #ccc;
-	border-radius: 3px;
+	color: #eeeeee;
+	border: 3px solid #ee1111;
+	background-color: #111111;
 	padding: 3px;
 }
 
@@ -597,7 +597,7 @@ input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
-	color: #111;
+	color: #eeeeee;
 }
 
 select {
@@ -615,15 +615,17 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #ee1111;
+	text-decoration: none;
 }
 
 a:visited {
-	color: purple;
+	color: #ee1111;
 }
 
 a:hover, a:focus, a:active {
-	color: midnightblue;
+	color: #ff0000;
+	text-decoration: underline;
 }
 
 a:focus {
@@ -983,4 +985,11 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.site {
+	margin-left: 20%;
+	margin-right: 20%;
 }
