@@ -999,8 +999,7 @@ object {
 /* ----------------------------------------------------------------------- */
 
 .site {
-	margin-left: 20%;
-	margin-right: 20%;
+	margin: 40px 20%;
 }
 
 .site-header {
@@ -1012,4 +1011,14 @@ object {
 	font-size: 48px;
 	padding: 5px 0px;
 	border: solid #ee1111;
+	padding: 10px;
+	color: #ff3333;
+}
+
+
+/* ---------- Smartphone -------------*/
+@media only screen and (max-width: 768px){
+	.site {
+		margin: 60px;
+	}
 }
