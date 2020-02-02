@@ -684,6 +684,15 @@ a:hover, a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
+	margin-right: 15px;
+}
+
+.main-navigation li.current-menu-item {
+	border-bottom: solid #ee9911;
+}
+
+.main-navigation li.current-menu-item a{
+	color: #ee9911;
 }
 
 .main-navigation a {
@@ -992,4 +1001,15 @@ object {
 .site {
 	margin-left: 20%;
 	margin-right: 20%;
+}
+
+.site-header {
+	padding-bottom: 1em;
+	border-bottom: 4px solid #777777;
+}
+
+.site-title a {
+	font-size: 48px;
+	padding: 5px 0px;
+	border: solid #ee1111;
 }
